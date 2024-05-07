@@ -5,6 +5,7 @@ edition = "2021"
 authors = ["Aalekh Patel <aalekh.gwpeck.7998@icloud.com>"]
 description = "A minimal malicious HTTP server that responds over a uniform interval."
 license-file = "LICENSE.md"
+repository = "https://github.com/aalekhpatel07/httt.git"
 
 [dependencies]
 clap = { version = "4.5.4", features = ["derive", "env"] }
