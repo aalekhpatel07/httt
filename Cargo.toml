@@ -10,3 +10,7 @@ repository = "https://github.com/aalekhpatel07/httt.git"
 [dependencies]
 clap = { version = "4.5.4", features = ["derive", "env"] }
 tokio = { version = "1.37.0", features = ["full"] }
+
+[profile.release]
+lto = "fat"
+debug = false
